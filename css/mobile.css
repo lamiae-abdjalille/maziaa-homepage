@@ -1,0 +1,9 @@
+
+
+@media (max-width: 576px) {
+    .imageCard {
+        height: auto;
+        object-fit: cover;
+        
+    } 
+  }

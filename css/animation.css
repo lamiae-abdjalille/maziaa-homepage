@@ -1,0 +1,99 @@
+/* Animations of home cards*/
+
+.quickView{
+    width: 100%;
+    padding: 7px 0px;
+    text-align: center;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    background-color: #ffffffde;
+    position: absolute;
+    bottom: 0%;
+    opacity: 0;
+    max-height:0;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.linkquickView{
+   text-decoration: none;
+   color: #000;
+   font-size: 14px;
+   font-weight: 600;  
+   transition: all 0.3s ease-in-out;
+}
+.linkquickView:hover{
+    color: red;
+}
+
+.quickView:hover .linkquickView{
+    color: red;
+}
+
+
+.cardiv:hover .quickView {
+
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    max-height: 60px;
+    position: absolute;
+    bottom: 0%;
+
+}
+
+.cardiv:hover .linkquickView {
+    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.cardProduct:hover {
+    cursor: pointer;
+}
+
+
+  
+.cardProduct:hover .imageCard{
+    transform: scale(1.1);
+}
+
+
+.addtocard:hover {
+    color: red;
+    cursor: pointer;
+    border-bottom: solid 1px red;
+}
+
+
+.addtocard{
+    border-bottom: solid 1px black;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;    
+  }
+
+
+.priceproduct{
+    color: #6c6b6b;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+
+.cardiv:hover .priceproduct{
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+
+.cardiv:hover .divtocard{
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-100%);
+    opacity: 1;
+   }
+
+  .divtocard{   
+    opacity: 0;
+   }
+   
